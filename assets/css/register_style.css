@@ -36,7 +36,7 @@ a {
 }
 
 .login_box {
-	font-family: 'Bellota-LightItalic', sans-serif;
+	font-family: 'Rock Salt', sans-serif;
 	position: relative;
 	margin-right: auto;
 	margin-left: 5%;
@@ -50,7 +50,7 @@ a {
 }
 
 .login_header {
-	font-family: 'Bellota-LightItalic', sans-serif;
+	font-family: 'Rock Salt', sans-serif;
 	text-align: center;
 	width: 100%;
 	background-color: #db9e5b;
@@ -60,7 +60,7 @@ a {
 }
 
 .login_header h1 {
-	font-family: 'Bellota-BoldItalic', sans-serif;
+	font-family: 'Rock Salt', sans-serif;
 	margin-top: 0;
 	margin-bottom: 0;
 	text-shadow: #000 1px 0.5px 0;
@@ -68,7 +68,7 @@ a {
 }
 
 .login_header h2 {
-	font-family: 'Bellota-BoldItalic', sans-serif;
+	font-family: 'Rock Salt', sans-serif;
 	margin-top: 0;
 	margin-bottom: 0;
 	text-shadow: #000 1px 0.5px 0;
@@ -76,7 +76,7 @@ a {
 }
 
 input[type='submit'] {
-	font-family: 'Bellota-BoldItalic', sans-serif;
+	font-family: 'Rock Salt', sans-serif;
 	background-color: #db9e5b;
 	padding: 5px, 10px, 5px, 10px;
 	margin: 10px;

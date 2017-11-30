@@ -8,6 +8,7 @@ require 'includes/form_handlers/login_handler.php';
 <html>
 <head>
 	<title>Welcome to Nomad</title>
+	<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="assets/css/register_style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="assets/js/register.js"></script>

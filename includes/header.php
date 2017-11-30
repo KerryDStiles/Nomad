@@ -1,5 +1,7 @@
 <?php 
 require 'config/config.php';
+include("includes/classes/User.php");
+include("includes/classes/Post.php");
 
 if (isset($_SESSION['username'])) {
 	$userLoggedIn = $_SESSION['username'];
@@ -17,10 +19,17 @@ else {
 <html>
 <head>
 	<title>Nomad</title>
+	<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 
 	<!--Javascript-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="assets/js/bootstrap.js"></script>
+	
+	<script src="assets/js/nomad.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script> 
+	<!-- <script src="assets/js/bootbox.min.js"></script>
+	<script src="assets/js/popper.min.js"></script> -->
+
 
 	<!--CSS-->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -49,7 +58,7 @@ else {
 			<a href="#">
 				<i class="fa fa-bell-o fa-lg" aria-hidden="true"></i>
 			</a>
-			<a href="#">
+			<a href="requests.php">
 				<i class="fa fa-users fa-lg" aria-hidden="true"></i>
 			</a>
 			<a href="#">
